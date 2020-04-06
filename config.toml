@@ -1,0 +1,26 @@
+baseURL = "https:kennethworkman.com/"
+languageCode = "en-us"
+title = "Kenny Workman"
+theme = "sam"
+
+[params]
+    dateform             = "Mon Jan 02, 2006"
+    dateformfull         = "Mon Jan 2 2006 15:04:05 EST"
+    favicon              = "sam.ico"
+    homepage             = "main"
+    footerText           = "© 2020 Kenny Workman"
+
+# Metadata for Open Graph and Twitter
+    title                = "Kenny Workman"
+
+[[params.mainMenu]]
+  link = "/research"
+  text = "research"
+
+[[params.mainMenu]]
+  link = "/projects"
+  text = "projects"
+
+[[params.mainMenu]]
+  link = "/about"
+  text = "about"
