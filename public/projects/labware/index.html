@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+
+<title>
+    Bioware index - Kenny Workman
+</title>
+
+
+
+<link rel="shortcut icon" href="/sam.ico">
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/main.min.98305205bb019e3f2a1fca205b7edeac128580481a0e2b50eb75727c12db671b.css" integrity="sha256-mDBSBbsBnj8qH8ogW37erBKFgEgaDitQ63VyfBLbZxs=" crossorigin="anonymous" media="screen">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Didact+Gothic">
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Bioware index"/>
+<meta name="twitter:description" content="A simple tool to catalog biological labware."/>
+
+<meta property="og:title" content="Bioware index" />
+<meta property="og:description" content="A simple tool to catalog biological labware." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https:kennethworkman.com/projects/labware/" />
+<meta property="og:site_name" content="Kenny Workman" />
+
+
+    
+
+    
+    
+    
+    <title>
+        
+        Bioware index
+        
+    </title>
+</head>
+
+<body>
+    
+    
+    <header class="wrap flex-container">
+        <h1>Bioware index</h1>
+    </header>
+    
+    <main class="wrap">
+        
+<div class="flex-container">
+    <aside role="complementary">
+        A simple tool to catalog biological labware.
+        <div class="tag-container">
+            
+            
+            <span class="tag">
+                <a href="/tags/software/">
+                    software
+                </a>
+            </span>
+            
+            
+            
+            <span class="tag">
+                <a href="/tags/biology/">
+                    biology
+                </a>
+            </span>
+            
+            
+        </div>
+    </aside>
+    <hr />
+    </br>
+    <article role="article">
+        <p><a href="https://github.com/kennyworkman/labware-index" target="_blank">Source code.</a>
+
+<a href="/projects/static/labware_index.pdf">Docs.</a>
+</p>
+<p>An exercise in designing persistent and intuitive software.</p>
+<p>I used a data structure architecture largely <a href="https://blog.jayway.com/2013/03/03/git-is-a-purely-functional-data-structure/" target="_blank">inspired by
+git</a>
+.</p>
+<p>A detailed breakdown of implementation, design choices, and an API specification
+can be found in the linked documentation.</p>
+<p>Here is a quick use case with the exposed API:</p>
+<pre><code>&gt;&gt;&gt; rad = registry.get(&quot;Rad&quot;)
+&gt;&gt;&gt; rad
+Bio-Rad-HSP9601B with length 127.76 mm, width 85.48 mm, height 16.06 mm, and 96 wells. &gt;&gt;&gt; rad.plate
+Plate with length 127.76 mm, width 85.48 mm, height 16.06 mm, and 96 wells.
+&gt;&gt;&gt; rad.well
+Well with volume 200 uL, depth 14.81 mm, top diameter 5.46 mm, and bottom diameter 2.
+˓→64 mm.
+&gt;&gt;&gt; rad.plate.well_num 96
+</code></pre>
+    </article>
+</div>
+
+
+        
+<nav role="navigation" class="flex-container bottom-menu">
+    
+<hr />
+<p>
+
+
+    
+        <a href="/projects">back</a>
+        
+            &#183;
+        
+    
+
+    
+        
+            <a href="/research">research</a>
+        
+    
+    
+        
+            &#183; 
+            <a href="/projects">projects</a>
+        
+            &#183; 
+            <a href="/about">about</a>
+        
+    
+    &#183; 
+    <a href="/">
+        main
+    </a>
+
+</p>
+</nav>
+
+    </main>
+    
+    <footer class="flex-container footer">© 2020 Kenny Workman</footer>
+    
+    
+</body>
+
+</html>

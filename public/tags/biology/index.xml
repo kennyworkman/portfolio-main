@@ -1,24 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Kenny Workman</title>
-    <link>https:kennethworkman.com/</link>
-    <description>Recent content on Kenny Workman</description>
+    <title>biology on Kenny Workman</title>
+    <link>https:kennethworkman.com/tags/biology/</link>
+    <description>Recent content in biology on Kenny Workman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https:kennethworkman.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https:kennethworkman.com/tags/biology/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title></title>
-      <link>https:kennethworkman.com/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https:kennethworkman.com/about/</guid>
-      <description>I&amp;rsquo;m a full stack software engineer and synthetic biologist with a firm belief in building from first principles using lean methodology , and a student of Electrical Engineering, Computer Science, and Bioengineering at Berkeley.
-I&amp;rsquo;m interested in developing systems and tools to engineer living systems from scratch. Such work lies at the crossroads of automation, computational biology, software engineering, and applied mathematics. I&amp;rsquo;m a proponent of interdisciplinary thought and merging siloed fields of academia to make things that work.</description>
-    </item>
     
     <item>
       <title>Bioware index</title>
@@ -63,15 +53,6 @@ I&amp;rsquo;m interested in developing systems and tools to engineer living syst
       
       <guid>https:kennethworkman.com/projects/strain/</guid>
       <description>Used canonical synthetic biology techniques to engineer a small library of bacterial strains.</description>
-    </item>
-    
-    <item>
-      <title>Research</title>
-      <link>https:kennethworkman.com/research/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https:kennethworkman.com/research/</guid>
-      <description> Tijana Radivojević et al. ART: A machine learning Automated Recommendation Tool for synthetic biology Presentations  A brief overview of Machine Learning and its application to Metabolic Engineering  &amp;ldquo;Techniques for the purification of murine norovirus glycan binding domains&amp;rdquo; Advancing Wet and Dry Lab Tools to Accelerate the BioFoundry Design-Build Process  &amp;ldquo;TOP-10cc: a streamlined cloning system with inducible copy-control&amp;rdquo; &amp;ldquo;Analysis of LOXL2 Mediated Regulation of the SPTBN1 Gene in Human Gingival Fibroblasts&amp;rdquo;  </description>
     </item>
     
   </channel>

@@ -3,11 +3,55 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https:kennethworkman.com/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https:kennethworkman.com/tags/biology/</loc>
+  </url>
+  
+  <url>
+    <loc>https:kennethworkman.com/projects/labware/</loc>
+  </url>
+  
+  <url>
     <loc>https:kennethworkman.com/categories/</loc>
   </url>
   
   <url>
+    <loc>https:kennethworkman.com/projects/enzyme/</loc>
+  </url>
+  
+  <url>
+    <loc>https:kennethworkman.com/projects/alignment/</loc>
+  </url>
+  
+  <url>
+    <loc>https:kennethworkman.com/projects/pipeline/</loc>
+  </url>
+  
+  <url>
     <loc>https:kennethworkman.com/</loc>
+  </url>
+  
+  <url>
+    <loc>https:kennethworkman.com/tags/ml/</loc>
+  </url>
+  
+  <url>
+    <loc>https:kennethworkman.com/projects/strain/</loc>
+  </url>
+  
+  <url>
+    <loc>https:kennethworkman.com/projects/</loc>
+  </url>
+  
+  <url>
+    <loc>https:kennethworkman.com/research/</loc>
+  </url>
+  
+  <url>
+    <loc>https:kennethworkman.com/tags/software/</loc>
   </url>
   
   <url>

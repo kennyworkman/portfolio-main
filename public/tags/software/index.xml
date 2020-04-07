@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>software on Kenny Workman</title>
+    <link>https:kennethworkman.com/tags/software/</link>
+    <description>Recent content in software on Kenny Workman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https:kennethworkman.com/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bioware index</title>
+      <link>https:kennethworkman.com/projects/labware/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https:kennethworkman.com/projects/labware/</guid>
+      <description>A simple tool to catalog biological labware.</description>
+    </item>
+    
+    <item>
+      <title>Enzyme classification using CNNs</title>
+      <link>https:kennethworkman.com/projects/enzyme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https:kennethworkman.com/projects/enzyme/</guid>
+      <description>Classifying enzyme catalytic activity with neural networks.</description>
+    </item>
+    
+    <item>
+      <title>Gene alignment application</title>
+      <link>https:kennethworkman.com/projects/alignment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https:kennethworkman.com/projects/alignment/</guid>
+      <description>A minimal application for gene alignment built from scratch.</description>
+    </item>
+    
+    <item>
+      <title>Genomic sequencing pipeline</title>
+      <link>https:kennethworkman.com/projects/pipeline/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https:kennethworkman.com/projects/pipeline/</guid>
+      <description>Automated analytics and screening of sequencing data.</description>
+    </item>
+    
+  </channel>
+</rss>

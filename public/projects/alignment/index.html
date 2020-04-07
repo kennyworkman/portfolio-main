@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+
+<title>
+    Gene alignment application - Kenny Workman
+</title>
+
+
+
+<link rel="shortcut icon" href="/sam.ico">
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/main.min.98305205bb019e3f2a1fca205b7edeac128580481a0e2b50eb75727c12db671b.css" integrity="sha256-mDBSBbsBnj8qH8ogW37erBKFgEgaDitQ63VyfBLbZxs=" crossorigin="anonymous" media="screen">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Didact+Gothic">
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https:kennethworkman.com/"/>
+
+<meta name="twitter:title" content="Gene alignment application"/>
+<meta name="twitter:description" content="A minimal application for gene alignment built from scratch."/>
+
+<meta property="og:title" content="Gene alignment application" />
+<meta property="og:description" content="A minimal application for gene alignment built from scratch." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https:kennethworkman.com/projects/alignment/" />
+<meta property="og:image" content="https:kennethworkman.com/" />
+<meta property="og:site_name" content="Kenny Workman" />
+
+
+    
+
+    
+    
+    
+    <title>
+        
+        Gene alignment application
+        
+    </title>
+</head>
+
+<body>
+    
+    
+    <header class="wrap flex-container">
+        <h1>Gene alignment application</h1>
+    </header>
+    
+    <main class="wrap">
+        
+<div class="flex-container">
+    <aside role="complementary">
+        A minimal application for gene alignment built from scratch.
+        <div class="tag-container">
+            
+            
+            <span class="tag">
+                <a href="/tags/software/">
+                    software
+                </a>
+            </span>
+            
+            
+            
+            <span class="tag">
+                <a href="/tags/biology/">
+                    biology
+                </a>
+            </span>
+            
+            
+        </div>
+    </aside>
+    <hr />
+    </br>
+    <article role="article">
+        <p><a href="https://genealigner.site" target="_blank">Try it.</a>
+
+<a href="https://github.com/kennyworkman/alignment-app" target="_blank">Source code.</a>
+</p>
+<p>I built a UI wrapper around common command line utilities for <a href="https://en.wikipedia.org/wiki/Multiple_sequence_alignment" target="_blank">multiple
+sequence alignment</a>
+
+using the linux package <a href="http://www.clustal.org/omega/" target="_blank">Clustal Omega</a>
+.
+<img src="/projects/static/alignment_img.png" alt=""></p>
+<p>Backend manipulation of clustal processes was done with python. An API was
+exposed using <a href="http://flask.pocoo.org" target="_blank">Flask</a>
+. Application logic was
+containerized with Docker.</p>
+<p>I used NGINX to build out a reverse-proxy server on a blank machine running an
+Ubuntu distribution. <a href="https://gunicorn.org/" target="_blank">Gunicorn</a>
+ was used to communicate
+with NGINX and serve up the Dockerized apps exposed on a defined port.</p>
+<p>More information on infrastructure and all source code is on GitHub.</p>
+
+    </article>
+</div>
+
+
+        
+<nav role="navigation" class="flex-container bottom-menu">
+    
+<hr />
+<p>
+
+
+    
+        <a href="/projects">back</a>
+        
+            &#183;
+        
+    
+
+    
+        
+            <a href="/research">research</a>
+        
+    
+    
+        
+            &#183; 
+            <a href="/projects">projects</a>
+        
+            &#183; 
+            <a href="/about">about</a>
+        
+    
+    &#183; 
+    <a href="/">
+        main
+    </a>
+
+</p>
+</nav>
+
+    </main>
+    
+    <footer class="flex-container footer">© 2020 Kenny Workman</footer>
+    
+    
+</body>
+
+</html>
