@@ -2,20 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ml on Kenny Workman</title>
-    <link>https:kennethworkman.com/tags/ml/</link>
+    <link>https://kennethworkman.com/tags/ml/</link>
     <description>Recent content in ml on Kenny Workman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sat, 15 Aug 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https:kennethworkman.com/tags/ml/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://kennethworkman.com/tags/ml/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Enzyme classification using CNNs</title>
-      <link>https:kennethworkman.com/projects/enzyme/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Autodag</title>
+      <link>https://kennethworkman.com/projects/autodag/</link>
+      <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https:kennethworkman.com/projects/enzyme/</guid>
+      <guid>https://kennethworkman.com/projects/autodag/</guid>
+      <description>CLI visualization of Automatic Differentiation</description>
+    </item>
+    
+    <item>
+      <title>Enzyme classification using CNNs</title>
+      <link>https://kennethworkman.com/projects/enzyme/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://kennethworkman.com/projects/enzyme/</guid>
       <description>Classifying enzyme catalytic activity with neural networks.</description>
     </item>
     

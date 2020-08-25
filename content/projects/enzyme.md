@@ -1,6 +1,6 @@
 ---
 title: "Enzyme classification using CNNs"
-date: 2020-04-05 00:43
+date: 2019-04-01
 tags: ["software","biology", "ml"]
 summary: "Classifying enzyme catalytic activity with neural networks."
 images:

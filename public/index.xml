@@ -2,75 +2,105 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kenny Workman</title>
-    <link>https:kennethworkman.com/</link>
+    <link>https://kennethworkman.com/</link>
     <description>Recent content on Kenny Workman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sun, 23 Aug 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https:kennethworkman.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://kennethworkman.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title></title>
-      <link>https:kennethworkman.com/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Academia probably won&#39;t cure cancer</title>
+      <link>https://kennethworkman.com/thoughts/academia_cure_cancer/</link>
+      <pubDate>Sun, 23 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https:kennethworkman.com/about/</guid>
-      <description>I&amp;rsquo;m a full stack software engineer and synthetic biologist with a firm belief in building from first principles using lean methodology , and a student of Electrical Engineering, Computer Science, and Bioengineering at Berkeley.
-I&amp;rsquo;m interested in developing systems and tools to engineer living systems from scratch. Such work lies at the crossroads of automation, computational biology, software engineering, and applied mathematics. I&amp;rsquo;m a proponent of interdisciplinary thought and merging siloed fields of academia to make things that work.</description>
+      <guid>https://kennethworkman.com/thoughts/academia_cure_cancer/</guid>
+      <description>Notes for now</description>
+    </item>
+    
+    <item>
+      <title>Autodag</title>
+      <link>https://kennethworkman.com/projects/autodag/</link>
+      <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kennethworkman.com/projects/autodag/</guid>
+      <description>CLI visualization of Automatic Differentiation</description>
+    </item>
+    
+    <item>
+      <title>On writing</title>
+      <link>https://kennethworkman.com/thoughts/on_writing/</link>
+      <pubDate>Mon, 20 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kennethworkman.com/thoughts/on_writing/</guid>
+      <description>How shitty is this essay?</description>
     </item>
     
     <item>
       <title>Bioware index</title>
-      <link>https:kennethworkman.com/projects/labware/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>https://kennethworkman.com/projects/labware/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https:kennethworkman.com/projects/labware/</guid>
-      <description>A simple tool to catalog biological labware.</description>
-    </item>
-    
-    <item>
-      <title>Enzyme classification using CNNs</title>
-      <link>https:kennethworkman.com/projects/enzyme/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https:kennethworkman.com/projects/enzyme/</guid>
-      <description>Classifying enzyme catalytic activity with neural networks.</description>
+      <guid>https://kennethworkman.com/projects/labware/</guid>
+      <description>Reimplementing git internals to persist bioware.</description>
     </item>
     
     <item>
       <title>Gene alignment application</title>
-      <link>https:kennethworkman.com/projects/alignment/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>https://kennethworkman.com/projects/alignment/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https:kennethworkman.com/projects/alignment/</guid>
-      <description>A minimal application for gene alignment built from scratch.</description>
+      <guid>https://kennethworkman.com/projects/alignment/</guid>
+      <description>A pedagogical exercise in web development</description>
     </item>
     
     <item>
-      <title>Genomic sequencing pipeline</title>
-      <link>https:kennethworkman.com/projects/pipeline/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Enzyme classification using CNNs</title>
+      <link>https://kennethworkman.com/projects/enzyme/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https:kennethworkman.com/projects/pipeline/</guid>
-      <description>Automated analytics and screening of sequencing data.</description>
+      <guid>https://kennethworkman.com/projects/enzyme/</guid>
+      <description>Classifying enzyme catalytic activity with neural networks.</description>
     </item>
     
     <item>
       <title>Novel strain of E. coli</title>
-      <link>https:kennethworkman.com/projects/strain/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>https://kennethworkman.com/projects/strain/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https:kennethworkman.com/projects/strain/</guid>
+      <guid>https://kennethworkman.com/projects/strain/</guid>
       <description>Used canonical synthetic biology techniques to engineer a small library of bacterial strains.</description>
     </item>
     
     <item>
-      <title>Research</title>
-      <link>https:kennethworkman.com/research/</link>
+      <title>Genomic sequencing pipeline</title>
+      <link>https://kennethworkman.com/projects/pipeline/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://kennethworkman.com/projects/pipeline/</guid>
+      <description>Automated analytics and screening of sequencing data.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kennethworkman.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https:kennethworkman.com/research/</guid>
+      <guid>https://kennethworkman.com/about/</guid>
+      <description>I&amp;rsquo;m a software engineer and synthetic biologist with a firm belief in building from first principles . I&amp;rsquo;m trying to develop systems and tools to engineer living systems from scratch.
+I study Electrical Engineering, Computer Science, and Bioengineering at Berkeley.
+My interests vary, but I&amp;rsquo;m currently reading generally about or working on projects relating to:
+ Distributed computing Cortical Micro-circuits  Evolutionary Biology Computer networking Microservice infrastructure (mostly K8s) early 1800s American history Brain-Computer Interfaces  A reading list from the past few months:</description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>https://kennethworkman.com/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kennethworkman.com/research/</guid>
       <description> Tijana Radivojević et al. ART: A machine learning Automated Recommendation Tool for synthetic biology Presentations  A brief overview of Machine Learning and its application to Metabolic Engineering  &amp;ldquo;Techniques for the purification of murine norovirus glycan binding domains&amp;rdquo; Advancing Wet and Dry Lab Tools to Accelerate the BioFoundry Design-Build Process  &amp;ldquo;TOP-10cc: a streamlined cloning system with inducible copy-control&amp;rdquo; &amp;ldquo;Analysis of LOXL2 Mediated Regulation of the SPTBN1 Gene in Human Gingival Fibroblasts&amp;rdquo;  </description>
     </item>
     

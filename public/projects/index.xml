@@ -2,57 +2,67 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Kenny Workman</title>
-    <link>https:kennethworkman.com/projects/</link>
+    <link>https://kennethworkman.com/projects/</link>
     <description>Recent content in Projects on Kenny Workman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sat, 15 Aug 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https:kennethworkman.com/projects/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://kennethworkman.com/projects/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Bioware index</title>
-      <link>https:kennethworkman.com/projects/labware/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Autodag</title>
+      <link>https://kennethworkman.com/projects/autodag/</link>
+      <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https:kennethworkman.com/projects/labware/</guid>
-      <description>A simple tool to catalog biological labware.</description>
+      <guid>https://kennethworkman.com/projects/autodag/</guid>
+      <description>CLI visualization of Automatic Differentiation</description>
     </item>
     
     <item>
-      <title>Enzyme classification using CNNs</title>
-      <link>https:kennethworkman.com/projects/enzyme/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Bioware index</title>
+      <link>https://kennethworkman.com/projects/labware/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https:kennethworkman.com/projects/enzyme/</guid>
-      <description>Classifying enzyme catalytic activity with neural networks.</description>
+      <guid>https://kennethworkman.com/projects/labware/</guid>
+      <description>Reimplementing git internals to persist bioware.</description>
     </item>
     
     <item>
       <title>Gene alignment application</title>
-      <link>https:kennethworkman.com/projects/alignment/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>https://kennethworkman.com/projects/alignment/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https:kennethworkman.com/projects/alignment/</guid>
-      <description>A minimal application for gene alignment built from scratch.</description>
+      <guid>https://kennethworkman.com/projects/alignment/</guid>
+      <description>A pedagogical exercise in web development</description>
     </item>
     
     <item>
-      <title>Genomic sequencing pipeline</title>
-      <link>https:kennethworkman.com/projects/pipeline/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Enzyme classification using CNNs</title>
+      <link>https://kennethworkman.com/projects/enzyme/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https:kennethworkman.com/projects/pipeline/</guid>
-      <description>Automated analytics and screening of sequencing data.</description>
+      <guid>https://kennethworkman.com/projects/enzyme/</guid>
+      <description>Classifying enzyme catalytic activity with neural networks.</description>
     </item>
     
     <item>
       <title>Novel strain of E. coli</title>
-      <link>https:kennethworkman.com/projects/strain/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <link>https://kennethworkman.com/projects/strain/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https:kennethworkman.com/projects/strain/</guid>
+      <guid>https://kennethworkman.com/projects/strain/</guid>
       <description>Used canonical synthetic biology techniques to engineer a small library of bacterial strains.</description>
+    </item>
+    
+    <item>
+      <title>Genomic sequencing pipeline</title>
+      <link>https://kennethworkman.com/projects/pipeline/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://kennethworkman.com/projects/pipeline/</guid>
+      <description>Automated analytics and screening of sequencing data.</description>
     </item>
     
   </channel>

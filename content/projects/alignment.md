@@ -1,14 +1,13 @@
 ---
 title: "Gene alignment application"
-date: 2020-04-04 20:36
+date: 2019-06-01
 tags: ["software","biology"]
-summary: "A minimal application for gene alignment built from scratch."
+summary: "A pedagogical exercise in web development"
 images:
     - /projects/static/alignment_img.png
 ---
 
 
-[Try it.](https://genealigner.site)
 [Source code.](https://github.com/kennyworkman/alignment-app)
 
 I built a UI wrapper around common command line utilities for [multiple

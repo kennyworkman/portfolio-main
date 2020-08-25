@@ -1,6 +1,6 @@
 ---
 title: "Novel strain of E. coli"
-date: 2020-04-05 00:43
+date: 2019-04-01
 tags: ["biology"]
 summary: "Used canonical synthetic biology techniques to engineer a small library of
 bacterial strains."

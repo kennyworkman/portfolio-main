@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thoughts on Kenny Workman</title>
+    <link>https://kennethworkman.com/thoughts/</link>
+    <description>Recent content in Thoughts on Kenny Workman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 23 Aug 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://kennethworkman.com/thoughts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Academia probably won&#39;t cure cancer</title>
+      <link>https://kennethworkman.com/thoughts/academia_cure_cancer/</link>
+      <pubDate>Sun, 23 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kennethworkman.com/thoughts/academia_cure_cancer/</guid>
+      <description>Notes for now</description>
+    </item>
+    
+    <item>
+      <title>On writing</title>
+      <link>https://kennethworkman.com/thoughts/on_writing/</link>
+      <pubDate>Mon, 20 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kennethworkman.com/thoughts/on_writing/</guid>
+      <description>How shitty is this essay?</description>
+    </item>
+    
+  </channel>
+</rss>

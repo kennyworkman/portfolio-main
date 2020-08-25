@@ -1,14 +1,12 @@
 ---
 title: "Bioware index"
-date: 2020-04-04 20:36
+date: 2019-10-01
 tags: ["software","biology"]
-summary: "A simple tool to catalog biological labware."
+summary: "Reimplementing git internals to persist bioware."
 ---
 
 [Source code.](https://github.com/kennyworkman/labware-index)
 [Docs.](/projects/static/labware_index.pdf)
-
-An exercise in designing persistent and intuitive software.
 
 I used a data structure architecture largely [inspired by
 git](https://blog.jayway.com/2013/03/03/git-is-a-purely-functional-data-structure/).
@@ -16,7 +14,15 @@ git](https://blog.jayway.com/2013/03/03/git-is-a-purely-functional-data-structur
 A detailed breakdown of implementation, design choices, and an API specification
 can be found in the linked documentation.
 
-Here is a quick use case with the exposed API:
+The
+heavy lifting here was getting this state to persist when the runtime memory was
+wiped, such that data can be retrieved with linear complexity. What we end up
+with is, in effect, a hash map implemented directly onto the nix-flavor filesystem with
+keys derived from compressed object binaries.
+
+
+Here is a quick use case with the exposed API via the python interpretor. 
+
 
 ```
 >>> rad = registry.get("Rad")

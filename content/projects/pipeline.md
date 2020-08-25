@@ -1,6 +1,6 @@
 ---
 title: "Genomic sequencing pipeline"
-date: 2020-04-05 12:20
+date: 2019-03-01
 tags: ["software","biology"]
 summary: "Automated analytics and screening of sequencing data."
 ---
