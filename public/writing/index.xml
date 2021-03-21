@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>writing on Kenny Workman</title>
+    <link>https://kennethworkman.com/writing/</link>
+    <description>Recent content in writing on Kenny Workman</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 26 Feb 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://kennethworkman.com/writing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>bad philosophy</title>
+      <link>https://kennethworkman.com/writing/bad_philosophy/</link>
+      <pubDate>Fri, 26 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://kennethworkman.com/writing/bad_philosophy/</guid>
+      <description>Some ideas are worse than others</description>
+    </item>
+    
+    <item>
+      <title>electrical wizards</title>
+      <link>https://kennethworkman.com/writing/electric_wizards/</link>
+      <pubDate>Fri, 23 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kennethworkman.com/writing/electric_wizards/</guid>
+      <description>People used to be more hungry</description>
+    </item>
+    
+    <item>
+      <title>on writing</title>
+      <link>https://kennethworkman.com/writing/on_writing/</link>
+      <pubDate>Mon, 20 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kennethworkman.com/writing/on_writing/</guid>
+      <description>How shitty is this essay?</description>
+    </item>
+    
+  </channel>
+</rss>

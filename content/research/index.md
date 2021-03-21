@@ -5,7 +5,8 @@ date: 2020-04-04 20:11
 &nbsp;
 
 Tijana Radivojević _et al._ [ART: A machine learning Automated Recommendation
-Tool for synthetic biology](https://arxiv.org/abs/1911.11091)
+Tool for synthetic biology](https://www.nature.com/articles/s41467-020-18008-4)
+
 
 ### Presentations
 

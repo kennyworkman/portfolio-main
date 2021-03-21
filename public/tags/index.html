@@ -31,6 +31,39 @@
 
 
 
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [
+        ["$", "$"],
+        ["\\(", "\\)"]
+      ],
+      displayMath: [
+        ["$$", "$$"],
+        ["\\[", "\\]"]
+      ],
+      processEscapes: true,
+      processEnvironments: true
+    },
+    options: {
+      skipHtmlTags: ["script", "noscript", "style", "textarea", "pre"]
+    }
+  };
+
+  window.addEventListener("load", event => {
+    document.querySelectorAll("mjx-container").forEach(function(x) {
+      x.parentElement.classList += "has-jax";
+    });
+  });
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script
+  type="text/javascript"
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+></script>
+
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Didact+Gothic">
 
@@ -42,7 +75,8 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://kennethworkman.com/tags/" />
-<meta property="og:updated_time" content="2020-08-15T00:00:00+00:00" /><meta property="og:site_name" content="Kenny Workman" />
+<meta property="og:updated_time" content="2021-01-05T00:00:00+00:00" /><meta property="og:site_name" content="Kenny Workman" />
+
 
 
     
@@ -75,16 +109,16 @@
         <li>
             
  January 0001
-            <a href="/tags/ml/">
-                ml
+            <a href="/tags/software/">
+                software
             </a>
         </li>
         
         <li>
             
  January 0001
-            <a href="/tags/software/">
-                software
+            <a href="/tags/ml/">
+                ml
             </a>
         </li>
         
@@ -112,19 +146,22 @@
 
     
         
-            <a href="/thoughts">thoughts</a>
-        
-    
-    
-        
-            &#183; 
             <a href="/research">research</a>
         
+    
+    
+        
             &#183; 
-            <a href="/projects">projects</a>
+            <a href="/code">code</a>
+        
+            &#183; 
+            <a href="/reading">reading</a>
         
             &#183; 
             <a href="/about">about</a>
+        
+            &#183; 
+            <a href="/writing">writing</a>
         
     
     &#183; 
@@ -139,7 +176,15 @@
         
     </main>
     
-    <footer class="flex-container footer">© 2020 Kenny Workman</footer>
+    <footer class="flex-container footer"><footer class="footer">
+  
+</footer>
+</div>
+
+</body>
+
+</html>
+</footer>
     
     
 </body>

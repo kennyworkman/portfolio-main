@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Thoughts on Kenny Workman</title>
+    <title>thoughts on Kenny Workman</title>
     <link>https://kennethworkman.com/thoughts/</link>
-    <description>Recent content in Thoughts on Kenny Workman</description>
+    <description>Recent content in thoughts on Kenny Workman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://kennethworkman.com/thoughts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Electrical Wizards</title>
+      <link>https://kennethworkman.com/thoughts/electric_wizards/</link>
+      <pubDate>Fri, 23 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kennethworkman.com/thoughts/electric_wizards/</guid>
+      <description>People used to be more hungry</description>
+    </item>
     
     <item>
       <title>Academia probably won&#39;t cure cancer</title>

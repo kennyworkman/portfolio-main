@@ -30,6 +30,39 @@
 
 
 
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [
+        ["$", "$"],
+        ["\\(", "\\)"]
+      ],
+      displayMath: [
+        ["$$", "$$"],
+        ["\\[", "\\]"]
+      ],
+      processEscapes: true,
+      processEnvironments: true
+    },
+    options: {
+      skipHtmlTags: ["script", "noscript", "style", "textarea", "pre"]
+    }
+  };
+
+  window.addEventListener("load", event => {
+    document.querySelectorAll("mjx-container").forEach(function(x) {
+      x.parentElement.classList += "has-jax";
+    });
+  });
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script
+  type="text/javascript"
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+></script>
+
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Didact+Gothic">
 
@@ -46,6 +79,7 @@
 <meta property="og:image" content="https://kennethworkman.com/" />
 <meta property="article:published_time" content="2020-08-23T00:00:00+00:00" />
 <meta property="article:modified_time" content="2020-08-23T00:00:00+00:00" /><meta property="og:site_name" content="Kenny Workman" />
+
 
 
     
@@ -80,31 +114,21 @@
   </aside>
   <hr />
   <article role="article">
-    <p>Lets look at how big, complicated systems are made. And when I say big, I mean
-civilization-scale big. Our intellectual</p>
-<p>Peculiarities in  growth of research:</p>
+    <p>Peculiarities in  growth of research:</p>
 <ul>
-<li>
-<p>suprisingly regular exponential growth in publication of the scientific
-paper. statistically</p>
-</li>
-<li>
-<p>Lotka&rsquo;s Law of Productivity (somehow now coined Prices law for these
-lectures) -&gt;
-The building blocks of academia are</p>
-</li>
-<li>
-<p>wasteful relative to capital injected</p>
-</li>
-<li>
-<p>competitive as a result of inundated injection of ego into all things
-published</p>
-</li>
-<li>
-<p>competitive as a result of funding and prestige to &ldquo;get there first&rdquo;</p>
-</li>
+<li>suprisingly regular exponential growth in publication of the scientific
+paper. statistically</li>
+<li>Lotka&rsquo;s Law of Productivity (somehow now coined Prices law for these
+lectures) -&gt;</li>
 </ul>
-<p>Utility of academia</p>
+<p><em>The building blocks of academia are</em></p>
+<ul>
+<li>wasteful relative to capital injected</li>
+<li>competitive as a result of inundated injection of ego into all things
+published</li>
+<li>competitive as a result of funding and prestige to &ldquo;get there first&rdquo;</li>
+</ul>
+<p><em>Utility of academia</em></p>
 <ul>
 <li>we need science so that technologists may grow up immersed in it</li>
 <li>&ldquo;most difficult and elegant thing we can do. Like Everest it is there.&rdquo;</li>
@@ -113,8 +137,11 @@ useful ones&rdquo;</li>
 <li>Japanese chip takeover in the 1970s when government defense funding dried up
 and industry was unable to afford cutting edge research</li>
 </ul>
-<p>Limits of Amdals Law</p>
-<p>Sigmoidal stagnation regardless of even marginal returns</p>
+<p><em>Modeling</em></p>
+<ul>
+<li>Limits of Amdals Law</li>
+<li>Sigmoidal stagnation regardless of even marginal returns</li>
+</ul>
 
   </article>
 </div>
@@ -136,19 +163,22 @@ and industry was unable to afford cutting edge research</li>
 
     
         
-            <a href="/thoughts">thoughts</a>
-        
-    
-    
-        
-            &#183; 
             <a href="/research">research</a>
         
+    
+    
+        
             &#183; 
-            <a href="/projects">projects</a>
+            <a href="/code">code</a>
+        
+            &#183; 
+            <a href="/reading">reading</a>
         
             &#183; 
             <a href="/about">about</a>
+        
+            &#183; 
+            <a href="/thoughts">thoughts</a>
         
     
     &#183; 
@@ -162,7 +192,15 @@ and industry was unable to afford cutting edge research</li>
 
     </main>
     
-    <footer class="flex-container footer">© 2020 Kenny Workman</footer>
+    <footer class="flex-container footer"><footer class="footer">
+  
+</footer>
+</div>
+
+</body>
+
+</html>
+</footer>
     
     
 </body>

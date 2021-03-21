@@ -31,6 +31,39 @@
 
 
 
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [
+        ["$", "$"],
+        ["\\(", "\\)"]
+      ],
+      displayMath: [
+        ["$$", "$$"],
+        ["\\[", "\\]"]
+      ],
+      processEscapes: true,
+      processEnvironments: true
+    },
+    options: {
+      skipHtmlTags: ["script", "noscript", "style", "textarea", "pre"]
+    }
+  };
+
+  window.addEventListener("load", event => {
+    document.querySelectorAll("mjx-container").forEach(function(x) {
+      x.parentElement.classList += "has-jax";
+    });
+  });
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script
+  type="text/javascript"
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+></script>
+
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Didact+Gothic">
 
@@ -42,7 +75,8 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://kennethworkman.com/" />
-<meta property="og:updated_time" content="2020-08-23T00:00:00+00:00" /><meta property="og:site_name" content="Kenny Workman" />
+<meta property="og:updated_time" content="2021-02-26T00:00:00+00:00" /><meta property="og:site_name" content="Kenny Workman" />
+
 
 
     <title>Kenny Workman</title>
@@ -53,20 +87,24 @@
 
         
         
-            <a href="/thoughts" class="big-link">
-                thoughts
-            </a>
-        
             <a href="/research" class="big-link">
                 research
             </a>
         
-            <a href="/projects" class="big-link">
-                projects
+            <a href="/code" class="big-link">
+                code
+            </a>
+        
+            <a href="/reading" class="big-link">
+                reading
             </a>
         
             <a href="/about" class="big-link">
                 about
+            </a>
+        
+            <a href="/writing" class="big-link">
+                writing
             </a>
         
 

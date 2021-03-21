@@ -13,11 +13,29 @@
     
     <item>
       <title>Bioware index</title>
+      <link>https://kennethworkman.com/code/labware/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://kennethworkman.com/code/labware/</guid>
+      <description>Reimplementing git internals to persist bioware.</description>
+    </item>
+    
+    <item>
+      <title>Bioware index</title>
       <link>https://kennethworkman.com/projects/labware/</link>
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://kennethworkman.com/projects/labware/</guid>
       <description>Reimplementing git internals to persist bioware.</description>
+    </item>
+    
+    <item>
+      <title>Gene alignment application</title>
+      <link>https://kennethworkman.com/code/alignment/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://kennethworkman.com/code/alignment/</guid>
+      <description>A pedagogical exercise in web development</description>
     </item>
     
     <item>
@@ -31,6 +49,15 @@
     
     <item>
       <title>Enzyme classification using CNNs</title>
+      <link>https://kennethworkman.com/code/enzyme/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://kennethworkman.com/code/enzyme/</guid>
+      <description>Classifying enzyme catalytic activity with neural networks.</description>
+    </item>
+    
+    <item>
+      <title>Enzyme classification using CNNs</title>
       <link>https://kennethworkman.com/projects/enzyme/</link>
       <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
       
@@ -40,11 +67,29 @@
     
     <item>
       <title>Novel strain of E. coli</title>
+      <link>https://kennethworkman.com/code/strain/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://kennethworkman.com/code/strain/</guid>
+      <description>Used canonical synthetic biology techniques to engineer a small library of bacterial strains.</description>
+    </item>
+    
+    <item>
+      <title>Novel strain of E. coli</title>
       <link>https://kennethworkman.com/projects/strain/</link>
       <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://kennethworkman.com/projects/strain/</guid>
       <description>Used canonical synthetic biology techniques to engineer a small library of bacterial strains.</description>
+    </item>
+    
+    <item>
+      <title>Genomic sequencing pipeline</title>
+      <link>https://kennethworkman.com/code/pipeline/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://kennethworkman.com/code/pipeline/</guid>
+      <description>Automated analytics and screening of sequencing data.</description>
     </item>
     
     <item>

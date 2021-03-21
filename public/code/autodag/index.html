@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+
+<title>
+    Autodag - Kenny Workman
+</title>
+
+
+
+<link rel="shortcut icon" href="/dna.ico">
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/main.min.218bbb05790f96f062c106d0dbbca289ada4a0cc76be0b0fe9cdb5b58ef695c4.css" integrity="sha256-IYu7BXkPlvBiwQbQ27yiia2koMx2vgsP6c21tY72lcQ=" crossorigin="anonymous" media="screen">
+
+
+
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [
+        ["$", "$"],
+        ["\\(", "\\)"]
+      ],
+      displayMath: [
+        ["$$", "$$"],
+        ["\\[", "\\]"]
+      ],
+      processEscapes: true,
+      processEnvironments: true
+    },
+    options: {
+      skipHtmlTags: ["script", "noscript", "style", "textarea", "pre"]
+    }
+  };
+
+  window.addEventListener("load", event => {
+    document.querySelectorAll("mjx-container").forEach(function(x) {
+      x.parentElement.classList += "has-jax";
+    });
+  });
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script
+  type="text/javascript"
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+></script>
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Didact+Gothic">
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Autodag"/>
+<meta name="twitter:description" content="CLI visualization of Automatic Differentiation"/>
+
+<meta property="og:title" content="Autodag" />
+<meta property="og:description" content="CLI visualization of Automatic Differentiation" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://kennethworkman.com/code/autodag/" />
+<meta property="article:published_time" content="2020-08-15T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-08-15T00:00:00+00:00" /><meta property="og:site_name" content="Kenny Workman" />
+
+
+
+    
+
+    
+    
+    
+    <title>
+        
+        Autodag
+        
+    </title>
+</head>
+
+<body>
+    
+    
+    <header class="wrap flex-container">
+        <h1>Autodag</h1>
+    </header>
+    
+    <main class="wrap">
+        
+<div class="flex-container">
+    <aside role="complementary">
+        August 15, 2020
+        <br>
+        CLI visualization of Automatic Differentiation
+        <div class="tag-container">
+            
+            
+            <span class="tag">
+                <a href="/tags/software/">
+                    software
+                </a>
+            </span>
+            
+            
+            
+            <span class="tag">
+                <a href="/tags/ml/">
+                    ml
+                </a>
+            </span>
+            
+            
+        </div>
+    </aside>
+    <hr />
+    </br>
+    <article role="article">
+        <p><a href="https://github.com/kennyworkman/autodag" target="_blank">Source code.</a>
+</p>
+<p>This is a simple implementation of the computational building blocks driving
+optimization in the most popular artificial neural network libraries today
+(pytorch, tensorflow).</p>
+<p>You can see simple directed graph visualizations of:</p>
+<ul>
+<li>computed function values from the initial forward pass</li>
+<li>computed Jacobian-Vector products (JVPs) that compose the &ldquo;backpropogation&rdquo;
+to efficiently derive the composite function gradient</li>
+</ul>
+<p>The principles of automatic differentiation in a functional programming context
+are derived from the ideas of <a href="https://en.wikipedia.org/wiki/Lambda_calculus" target="_blank">Lambda Calculus</a>
+.</p>
+<p>We are able to imitate the functional abstraction native to closure-native
+languages like Lisp in Python by &ldquo;wrapping&rdquo; functional primitives as they
+execute and constructing a tree-like structure from the stack trace.</p>
+<p>Jacobian-Vector products are then simply derived from a mapping of existing
+primitives and evaluated as the linear transformations (functions) that they are
+rather than computing matrix multiplication.</p>
+<p>Benefits of constructing a computation graph &ldquo;on the fly&rdquo; are twofold:</p>
+<ul>
+<li>Familiar language mechanics like for-loops and branches can be used without
+some weird domain language. One less thing to memorize.</li>
+<li>The cost of computing a gradient is fractionally greater than executing the
+function itself.</li>
+</ul>
+<p>Check out Dougal Maclaurin&rsquo;s PhD <a href="https://dougalmaclaurin.com/phd-thesis.pdf" target="_blank">thesis</a>
+ for a more detailed and
+mathematically rigorous breakdown of this approach.</p>
+<p>From the comfort of the command line, we can view our computational graph like
+so:</p>
+<pre><code>&gt;&gt;&gt; grad_tanh(1.0)
+0.419974341614026
+&gt;&gt;&gt;
+&gt;&gt;&gt; visualize_grad_tanh(1.0)
+Forward pass...
+Showing computed function values:
+
+
+                     o 0.7615941559557649
+                     |
+                    / \
+                   |   |
+0.8646647167633873 o   o 1.1353352832366128
+                   |__ |
+                      \|
+                       |
+                       o 0.1353352832366127
+                       |
+                       |
+                       |
+                       o -2.0
+                       |
+                       |
+                       |
+                       o 1.0
+
+Backward pass...
+Showing Jacobian-vector products:
+
+
+                      o 0.419974341614026
+                      |
+                      |
+                      |
+                      o -0.209987170807013
+                      |
+                      |
+                      |
+                      o -1.5516069851487515
+                      |
+                     / \
+                    |   |
+-0.6708099071708693 o   o 0.8807970779778823
+                    |__ |
+                       \|
+                        |
+                        o 1.0
+
+0.419974341614026
+</code></pre>
+    </article>
+</div>
+
+
+        
+<nav role="navigation" class="flex-container bottom-menu">
+    
+<hr />
+<p>
+
+
+    
+        <a href="/code">back</a>
+        
+            &#183;
+        
+    
+
+    
+        
+            <a href="/research">research</a>
+        
+    
+    
+        
+            &#183; 
+            <a href="/code">code</a>
+        
+            &#183; 
+            <a href="/reading">reading</a>
+        
+            &#183; 
+            <a href="/about">about</a>
+        
+            &#183; 
+            <a href="/writing">writing</a>
+        
+    
+    &#183; 
+    <a href="/">
+        main
+    </a>
+
+</p>
+
+</nav>
+
+    </main>
+    
+    <footer class="flex-container footer"><footer class="footer">
+  
+</footer>
+</div>
+
+</body>
+
+</html>
+</footer>
+    
+    
+</body>
+
+</html>

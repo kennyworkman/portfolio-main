@@ -1,5 +1,6 @@
 ---
-title: "On writing"
+title: "on writing"
+location: "Berkeley, CA"
 date: 2020-07-20
 tags: []
 summary: "How shitty is this essay?"

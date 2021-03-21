@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+
+<title>
+    Capsule - Kenny Workman
+</title>
+
+
+
+<link rel="shortcut icon" href="/dna.ico">
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/main.min.218bbb05790f96f062c106d0dbbca289ada4a0cc76be0b0fe9cdb5b58ef695c4.css" integrity="sha256-IYu7BXkPlvBiwQbQ27yiia2koMx2vgsP6c21tY72lcQ=" crossorigin="anonymous" media="screen">
+
+
+
+
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [
+        ["$", "$"],
+        ["\\(", "\\)"]
+      ],
+      displayMath: [
+        ["$$", "$$"],
+        ["\\[", "\\]"]
+      ],
+      processEscapes: true,
+      processEnvironments: true
+    },
+    options: {
+      skipHtmlTags: ["script", "noscript", "style", "textarea", "pre"]
+    }
+  };
+
+  window.addEventListener("load", event => {
+    document.querySelectorAll("mjx-container").forEach(function(x) {
+      x.parentElement.classList += "has-jax";
+    });
+  });
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script
+  type="text/javascript"
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+></script>
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Didact+Gothic">
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Capsule"/>
+<meta name="twitter:description" content="Using Monte Carlo simulation to improve likelihood evaluation."/>
+
+<meta property="og:title" content="Capsule" />
+<meta property="og:description" content="Using Monte Carlo simulation to improve likelihood evaluation." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://kennethworkman.com/code/capsule/" />
+<meta property="article:published_time" content="2020-12-08T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-12-08T00:00:00+00:00" /><meta property="og:site_name" content="Kenny Workman" />
+
+
+
+    
+
+    
+    
+    
+    <title>
+        
+        Capsule
+        
+    </title>
+</head>
+
+<body>
+    
+    
+    <header class="wrap flex-container">
+        <h1>Capsule</h1>
+    </header>
+    
+    <main class="wrap">
+        
+<div class="flex-container">
+    <aside role="complementary">
+        December 8, 2020
+        <br>
+        Using Monte Carlo simulation to improve likelihood evaluation.
+        <div class="tag-container">
+            
+            
+            <span class="tag">
+                <a href="/tags/software/">
+                    software
+                </a>
+            </span>
+            
+            
+            
+            <span class="tag">
+                <a href="/tags/ml/">
+                    ml
+                </a>
+            </span>
+            
+            
+        </div>
+    </aside>
+    <hr />
+    </br>
+    <article role="article">
+        <p><a href="https://wandb.ai/maximsmol/proj-google_stacked_capsule_autoencoders/reports/Semantic-Convolutions-ML-B---VmlldzozNTc3NTI">Summary</a>
+<a href="https://github.com/mlberkeley/semantic-convs">Repo</a></p>
+
+<p>This is definitely dense without context - checkout the resources above.
+This is essentially a really data efficient computer vision architecture.</p>
+
+<h3 id="dont-settle-with-slow">Don't settle with slow</h3>
+
+<p>Our attempts to optimize the Google Brain Stacked Capsule AutoEncoder (SCAE)
+implementation were focused on the particularly unwieldy log-likelihood central
+to the training process. To narrow the scope of our task, we concentrated
+efforts on the Object Capsule AutoEncoder (OCAE).</p>
+
+<p>To train our object encoders or capsules, we must first evaluate how accurately they can reconstruct their parts, then we must use this metric as a loss to tune the weights of the autoencoder. For a rigorous understanding of this reconstruction, specifically how object-viewer and object-part transforms are composed to obtain a viewpoint invariant understanding of a given part's pose, it is best to refer to the paper. For our purposes, it is enough to understand the following likelihood expression at a high level:</p>
+
+<p><span  class="math">\[p(x_{1:M}) = \prod_{m=1}^{M} \sum_{k=1}^K\sum_{n=1}^N \frac{a_ka_{k,n}}{\sum_ia_i\sum_ja_j} p(x_m | k, n)\]</span></p>
+
+<p>Assume here that we have <span  class="math">\( K \)</span> object capsules, where each capsule is able to
+vote <span  class="math">\( N\leq K \)</span> times. Additionally, we have <span  class="math">\( x_m : \{m = 1, ... , M\} \)</span>
+parts. Our likelihood is thus evaluating, for any given capsule and vote, how
+well that capsule's vote &quot;explains&quot; a given part <span  class="math">\( x_m \)</span>.</p>
+
+<p>Assume that <span  class="math">\( p(x_m | k, n) \)</span> is a Gaussian mixture component parameterized
+by the decoding, and that <span  class="math">\( a_k \)</span> and <span  class="math">\( a_{k,n} \)</span> are probabilities
+provided by the encoding/decoding alike.  We then must &quot;route&quot; capsules to the
+parts that they explain the best. This is equivalent to the following
+expression:</p>
+
+<p><span  class="math">\[ k* = argmax_k \,\, a_ka_{k,n} p(x_m | k, n) \]</span></p>
+
+<p>This value becomes our model loss when multiplied across each part, where the
+part's likelihood is evaluated with respect to its optimal capsule. Notice that
+our evaluation of <span  class="math">\( k* \)</span> is contingent on closed-form evaluation of the
+\textit{every combination of capsule and vote}. Now, consider a hierarchical
+capsule net with 100 capsules in a given layer, and assume each capsule can vote
+for any of the 100 capsules from the layer previous. We are now computing 10,000
+Gaussian log probabilities for each part for a single capsule to obtain our <span  class="math">\(
+k* \)</span>.</p>
+
+<p>For any given layer, this amounts to 100,000,000 computations.  This amounts to
+<span  class="math">\( 2^9 \)</span> log probability computations \textit{for a single round of back
+propagation}.  Naked and afraid without automatic differentiation, we turn to
+Bayesian statistics and Markov Chain Monte Carlo (MCMC) to adopt statistical
+machinery to our aim.</p>
+
+<h3 id="the-metropolishastings-algorithm">The Metropolis-Hastings Algorithm</h3>
+
+<p>Even though we want to avoid computing a closed-form posterior distribution, we
+can sparsely sample from it with certain guarantees about the resulting trace.
+However, one can imagine that a random walk with no further heuristics is not
+sufficient. Such a walk gives us no understanding as to the &quot;shape&quot; of the
+distribution being sampled. We desire a way to sample from our black-box
+posterior such that the density of sampled values are proportional to the amount
+of probability density at the sampled value. In other words, we wish for our
+sampled trace to have the same &quot;shape&quot; as our underlying posterior.</p>
+
+<p>To this aim, we can construct a markov chain that wanders through our parameters
+space in <span  class="math">\( k \)</span> and <span  class="math">\( n \)</span> , &quot;intelligently&quot; rejecting or accepting new states
+in proportion to the density that the state holds. The decision criteria to
+fulfill such a condition is the Metropolis-Hastings algorithm:</p>
+
+<p><span  class="math">\[ \alpha =  \frac{a_{k'}a_{k',n'} p(x_m | k', n')}{a_ka_{k,n} p(x_m | k, n)} \]</span></p>
+
+<p>Where the decision criterion <span  class="math">\( \alpha \)</span> determines if the markov chain
+advances to a candidate state with parameters <span  class="math">\( k' \)</span> and <span  class="math">\( n' \)</span></p>
+
+<h3 id="a-posteriori">A posteriori</h3>
+
+<p>Working on emperical conclusions from the above theory...</p>
+
+    </article>
+</div>
+
+
+        
+<nav role="navigation" class="flex-container bottom-menu">
+    
+<hr />
+<p>
+
+
+    
+        <a href="/code">back</a>
+        
+            &#183;
+        
+    
+
+    
+        
+            <a href="/research">research</a>
+        
+    
+    
+        
+            &#183; 
+            <a href="/code">code</a>
+        
+            &#183; 
+            <a href="/reading">reading</a>
+        
+            &#183; 
+            <a href="/about">about</a>
+        
+            &#183; 
+            <a href="/writing">writing</a>
+        
+    
+    &#183; 
+    <a href="/">
+        main
+    </a>
+
+</p>
+
+</nav>
+
+    </main>
+    
+    <footer class="flex-container footer"><footer class="footer">
+  
+</footer>
+</div>
+
+</body>
+
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/katex.min.css"
+  integrity="sha384-D+9gmBxUQogRLqvARvNLmA9hS2x//eK1FhVb9PiU86gmcrBrJAQT8okdJ4LMp2uv"
+  crossorigin="anonymous"
+/>
+
+
+<script
+  defer
+  src="https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/katex.min.js"
+  integrity="sha384-483A6DwYfKeDa0Q52fJmxFXkcPCFfnXMoXblOkJ4JcA8zATN6Tm78UNL72AKk+0O"
+  crossorigin="anonymous"
+></script>
+
+</html>
+</footer>
+    
+    
+</body>
+
+</html>

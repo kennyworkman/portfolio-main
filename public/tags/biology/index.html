@@ -31,6 +31,39 @@
 
 
 
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [
+        ["$", "$"],
+        ["\\(", "\\)"]
+      ],
+      displayMath: [
+        ["$$", "$$"],
+        ["\\[", "\\]"]
+      ],
+      processEscapes: true,
+      processEnvironments: true
+    },
+    options: {
+      skipHtmlTags: ["script", "noscript", "style", "textarea", "pre"]
+    }
+  };
+
+  window.addEventListener("load", event => {
+    document.querySelectorAll("mjx-container").forEach(function(x) {
+      x.parentElement.classList += "has-jax";
+    });
+  });
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script
+  type="text/javascript"
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+></script>
+
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Didact+Gothic">
 
@@ -43,6 +76,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://kennethworkman.com/tags/biology/" />
 <meta property="og:updated_time" content="2019-10-01T00:00:00+00:00" /><meta property="og:site_name" content="Kenny Workman" />
+
 
 
     
@@ -75,8 +109,24 @@
         <li>
             
  October 2019
+            <a href="/code/labware/">
+                Bioware index
+            </a>
+        </li>
+        
+        <li>
+            
+ October 2019
             <a href="/projects/labware/">
                 Bioware index
+            </a>
+        </li>
+        
+        <li>
+            
+ June 2019
+            <a href="/code/alignment/">
+                Gene alignment application
             </a>
         </li>
         
@@ -91,6 +141,14 @@
         <li>
             
  April 2019
+            <a href="/code/enzyme/">
+                Enzyme classification using CNNs
+            </a>
+        </li>
+        
+        <li>
+            
+ April 2019
             <a href="/projects/enzyme/">
                 Enzyme classification using CNNs
             </a>
@@ -99,8 +157,24 @@
         <li>
             
  April 2019
+            <a href="/code/strain/">
+                Novel strain of E. coli
+            </a>
+        </li>
+        
+        <li>
+            
+ April 2019
             <a href="/projects/strain/">
                 Novel strain of E. coli
+            </a>
+        </li>
+        
+        <li>
+            
+ March 2019
+            <a href="/code/pipeline/">
+                Genomic sequencing pipeline
             </a>
         </li>
         
@@ -128,19 +202,22 @@
 
     
         
-            <a href="/thoughts">thoughts</a>
-        
-    
-    
-        
-            &#183; 
             <a href="/research">research</a>
         
+    
+    
+        
             &#183; 
-            <a href="/projects">projects</a>
+            <a href="/code">code</a>
+        
+            &#183; 
+            <a href="/reading">reading</a>
         
             &#183; 
             <a href="/about">about</a>
+        
+            &#183; 
+            <a href="/writing">writing</a>
         
     
     &#183; 
@@ -155,7 +232,15 @@
         
     </main>
     
-    <footer class="flex-container footer">© 2020 Kenny Workman</footer>
+    <footer class="flex-container footer"><footer class="footer">
+  
+</footer>
+</div>
+
+</body>
+
+</html>
+</footer>
     
     
 </body>
