@@ -1,8 +1,8 @@
 ---
-title: "Genomic sequencing pipeline"
+title: "pipeline"
 date: 2019-03-01
 tags: ["software","biology"]
-summary: "Automated analytics and screening of sequencing data."
+summary: "automated analytics and screening of sequencing data."
 ---
 
 High-throughput synthetic biology pipelines of any kind will require "reading"

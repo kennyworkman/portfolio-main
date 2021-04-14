@@ -1,5 +1,5 @@
 ---
-title: "Autodag"
+title: "autodag"
 date: 2020-08-15
 tags: ["software","ml"]
 summary: "CLI visualization of Automatic Differentiation"
@@ -8,7 +8,7 @@ summary: "CLI visualization of Automatic Differentiation"
 [Source code.](https://github.com/kennyworkman/autodag)
 
 This is a simple implementation of the computational building blocks driving
-optimization in the most popular artificial neural network libraries today
+optimization in the most popular deep learning libraries today.
 (pytorch, tensorflow). 
 
 You can see simple directed graph visualizations of:

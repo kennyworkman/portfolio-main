@@ -11,7 +11,7 @@
 <meta name="referrer" content="no-referrer">
 
 <title>
-    Enzyme classification using CNNs - Kenny Workman
+    enzyme ml - Kenny Workman
 </title>
 
 
@@ -69,11 +69,11 @@
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://kennethworkman.com/projects/static/xray.png"/>
 
-<meta name="twitter:title" content="Enzyme classification using CNNs"/>
-<meta name="twitter:description" content="Classifying enzyme catalytic activity with neural networks."/>
+<meta name="twitter:title" content="enzyme ml"/>
+<meta name="twitter:description" content="classifying enzyme catalytic activity"/>
 
-<meta property="og:title" content="Enzyme classification using CNNs" />
-<meta property="og:description" content="Classifying enzyme catalytic activity with neural networks." />
+<meta property="og:title" content="enzyme ml" />
+<meta property="og:description" content="classifying enzyme catalytic activity" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://kennethworkman.com/code/enzyme/" />
 <meta property="og:image" content="https://kennethworkman.com/projects/static/xray.png" />
@@ -89,7 +89,7 @@
     
     <title>
         
-        Enzyme classification using CNNs
+        enzyme ml
         
     </title>
 </head>
@@ -98,7 +98,7 @@
     
     
     <header class="wrap flex-container">
-        <h1>Enzyme classification using CNNs</h1>
+        <h1>enzyme ml</h1>
     </header>
     
     <main class="wrap">
@@ -107,7 +107,7 @@
     <aside role="complementary">
         April 1, 2019
         <br>
-        Classifying enzyme catalytic activity with neural networks.
+        classifying enzyme catalytic activity
         <div class="tag-container">
             
             
@@ -144,7 +144,9 @@
 <a href="/projects/static/enzyme_abstract.pdf">Abstract.</a>
 </p>
 <p>My portion of a group project for a class in Optimization and Machine Learning
-for Chemical Problems.</p>
+for Chemical Problems. We effectively conducted a grid search across various
+deep learning architectures to find the most performant approach to classify
+enzyme behavior.</p>
 <p>Enzymes are special proteins that act as biological catalysts in organic
 reactions. It is well known that enzyme behavior is uniquely determined by
 molecular structure, which determines specific binding affinity with its
@@ -165,6 +167,10 @@ network</a>
  was used to
 exploit the unique structure of our training data. The network architecture and
 specifics of implementation can be found in the abstract.</p>
+<p>Interestingly, end-to-end recurrent architectures on raw sequence data (using
+protein homology as a guide) was more performant. This suggests that catalytic
+activity can be identified by very simple sequence motifs without such complex
+structural modeling.</p>
 
     </article>
 </div>

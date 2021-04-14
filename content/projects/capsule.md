@@ -1,5 +1,5 @@
 ---
-title: "Capsule"
+title: "capsule"
 date: 2020-12-08
 tags: ["software","ml"]
 summary: "Using Monte Carlo simulation to improve likelihood evaluation."

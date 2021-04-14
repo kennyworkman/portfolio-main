@@ -1,8 +1,8 @@
 ---
-title: "Seneca"
+title: "seneca"
 date: 2021-01-05
 tags: ["software"]
-summary: "Decentralized literature and note management"
+summary: "decentralized literature and note management"
 ---
 
 [Repo](https://github.com/kennyworkman/seneca)

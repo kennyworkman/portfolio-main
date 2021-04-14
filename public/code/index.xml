@@ -12,16 +12,16 @@
     
     
     <item>
-      <title>Seneca</title>
+      <title>seneca</title>
       <link>https://kennethworkman.com/code/seneca/</link>
       <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://kennethworkman.com/code/seneca/</guid>
-      <description>Decentralized literature and note management</description>
+      <description>decentralized literature and note management</description>
     </item>
     
     <item>
-      <title>Capsule</title>
+      <title>capsule</title>
       <link>https://kennethworkman.com/code/capsule/</link>
       <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
       
@@ -30,16 +30,16 @@
     </item>
     
     <item>
-      <title>Autodag</title>
+      <title>autoDAG</title>
       <link>https://kennethworkman.com/code/autodag/</link>
       <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kennethworkman.com/code/autodag/</guid>
-      <description>CLI visualization of Automatic Differentiation</description>
+      <description>CLI visualization of automatic differentiation</description>
     </item>
     
     <item>
-      <title>Bioware index</title>
+      <title>bioindex</title>
       <link>https://kennethworkman.com/code/labware/</link>
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
       
@@ -48,39 +48,30 @@
     </item>
     
     <item>
-      <title>Gene alignment application</title>
-      <link>https://kennethworkman.com/code/alignment/</link>
-      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://kennethworkman.com/code/alignment/</guid>
-      <description>A pedagogical exercise in web development</description>
-    </item>
-    
-    <item>
-      <title>Enzyme classification using CNNs</title>
+      <title>enzyme ml</title>
       <link>https://kennethworkman.com/code/enzyme/</link>
       <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://kennethworkman.com/code/enzyme/</guid>
-      <description>Classifying enzyme catalytic activity with neural networks.</description>
+      <description>classifying enzyme catalytic activity</description>
     </item>
     
     <item>
-      <title>Novel strain of E. coli</title>
+      <title>strain library</title>
       <link>https://kennethworkman.com/code/strain/</link>
       <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://kennethworkman.com/code/strain/</guid>
-      <description>Used canonical synthetic biology techniques to engineer a small library of bacterial strains.</description>
+      <description>used canonical synthetic biology techniques to engineer a small library of bacterial strains</description>
     </item>
     
     <item>
-      <title>Genomic sequencing pipeline</title>
+      <title>pipeline</title>
       <link>https://kennethworkman.com/code/pipeline/</link>
       <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://kennethworkman.com/code/pipeline/</guid>
-      <description>Automated analytics and screening of sequencing data.</description>
+      <description>automated analytics and screening of sequencing data.</description>
     </item>
     
   </channel>

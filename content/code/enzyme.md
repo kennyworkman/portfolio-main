@@ -1,8 +1,8 @@
 ---
-title: "Enzyme classification using CNNs"
+title: "enzyme ml"
 date: 2019-04-01
 tags: ["software","biology", "ml"]
-summary: "Classifying enzyme catalytic activity with neural networks."
+summary: "classifying enzyme catalytic activity"
 images:
     - /projects/static/xray.png
 ---
@@ -11,7 +11,9 @@ images:
 [Abstract.](/projects/static/enzyme_abstract.pdf)
 
 My portion of a group project for a class in Optimization and Machine Learning
-for Chemical Problems.
+for Chemical Problems. We effectively conducted a grid search across various
+deep learning architectures to find the most performant approach to classify
+enzyme behavior.
 
 Enzymes are special proteins that act as biological catalysts in organic
 reactions. It is well known that enzyme behavior is uniquely determined by
@@ -33,3 +35,8 @@ A [convolutional neural
 network](https://en.wikipedia.org/wiki/Convolutional_neural_network) was used to
 exploit the unique structure of our training data. The network architecture and
 specifics of implementation can be found in the abstract.
+
+Interestingly, end-to-end recurrent architectures on raw sequence data (using
+protein homology as a guide) was more performant. This suggests that catalytic
+activity can be identified by very simple sequence motifs without such complex
+structural modeling.

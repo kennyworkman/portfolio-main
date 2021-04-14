@@ -21,84 +21,16 @@
     </item>
     
     <item>
-      <title>The Beginning of Infinity</title>
-      <link>https://kennethworkman.com/reading/infinity/</link>
-      <pubDate>Fri, 26 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://kennethworkman.com/reading/infinity/</guid>
-      <description>2/26 - 496 pages https://en.wikipedia.org/wiki/The_Beginning_of_Infinity
-Deutsch is so fucking smart. Lots of thinking about thinking - why a tradition of criticism is crucial to knowledge creation and why such a process is unbounded.
-An intuitive, non-mathematical explanation for the multiverse and quantum mechanics. A rich but fabricated dialogue between Socrates (assuming that Deutsch got a bit carried away with the personification) and Hermes. An inspirational call to dredge deep space for raw mass to build space stations.</description>
-    </item>
-    
-    <item>
-      <title>Zero to One</title>
-      <link>https://kennethworkman.com/reading/021/</link>
-      <pubDate>Wed, 24 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://kennethworkman.com/reading/021/</guid>
-      <description>2/24 - 224 pages https://en.wikipedia.org/wiki/Zero_to_One
-Very clear writing. Easy to digest the ideas too quickly without really thinking or appreciating significance. Monopolies being mutually exclusive from capitalism is one kicker. The actual importance of distribution/sales in an engineering-heavy context is another.</description>
-    </item>
-    
-    <item>
-      <title>Genentech</title>
-      <link>https://kennethworkman.com/reading/genentech/</link>
-      <pubDate>Mon, 01 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://kennethworkman.com/reading/genentech/</guid>
-      <description>2/01 - 169 pages https://www.goodreads.com/book/show/12703074-genentech
-(Thanks Harshita!)</description>
-    </item>
-    
-    <item>
-      <title>Edison as I know him</title>
-      <link>https://kennethworkman.com/reading/edison/</link>
-      <pubDate>Mon, 18 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://kennethworkman.com/reading/edison/</guid>
-      <description>1/18 - 85 pages https://quod.lib.umich.edu/g/genpub/3936620.0001.001?view=toc
-(Thanks Harshita!)</description>
-    </item>
-    
-    <item>
-      <title>The First Tycoon</title>
-      <link>https://kennethworkman.com/reading/vanderbilt/</link>
-      <pubDate>Mon, 18 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://kennethworkman.com/reading/vanderbilt/</guid>
-      <description>1/18 - 736 pages https://en.wikipedia.org/wiki/The_First_Tycoon</description>
-    </item>
-    
-    <item>
-      <title>Moonwalking with Einstein</title>
-      <link>https://kennethworkman.com/reading/moonwalking/</link>
-      <pubDate>Thu, 14 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://kennethworkman.com/reading/moonwalking/</guid>
-      <description>1/14 - 320 pages https://en.wikipedia.org/wiki/Moonwalking_with_Einstein</description>
-    </item>
-    
-    <item>
-      <title>Never Let Me Go</title>
-      <link>https://kennethworkman.com/reading/hailsham/</link>
-      <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://kennethworkman.com/reading/hailsham/</guid>
-      <description>1/16 - 289 pages https://en.wikipedia.org/wiki/Never_Let_Me_Go_(novel)</description>
-    </item>
-    
-    <item>
-      <title>Seneca</title>
+      <title>seneca</title>
       <link>https://kennethworkman.com/code/seneca/</link>
       <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>https://kennethworkman.com/code/seneca/</guid>
-      <description>Decentralized literature and note management</description>
+      <description>decentralized literature and note management</description>
     </item>
     
     <item>
-      <title>Capsule</title>
+      <title>capsule</title>
       <link>https://kennethworkman.com/code/capsule/</link>
       <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
       
@@ -107,7 +39,7 @@ Very clear writing. Easy to digest the ideas too quickly without really thinking
     </item>
     
     <item>
-      <title>Capsule</title>
+      <title>capsule</title>
       <link>https://kennethworkman.com/projects/capsule/</link>
       <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
       
@@ -125,16 +57,16 @@ Very clear writing. Easy to digest the ideas too quickly without really thinking
     </item>
     
     <item>
-      <title>Autodag</title>
+      <title>autoDAG</title>
       <link>https://kennethworkman.com/code/autodag/</link>
       <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kennethworkman.com/code/autodag/</guid>
-      <description>CLI visualization of Automatic Differentiation</description>
+      <description>CLI visualization of automatic differentiation</description>
     </item>
     
     <item>
-      <title>Autodag</title>
+      <title>autodag</title>
       <link>https://kennethworkman.com/projects/autodag/</link>
       <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
       
@@ -152,7 +84,7 @@ Very clear writing. Easy to digest the ideas too quickly without really thinking
     </item>
     
     <item>
-      <title>Bioware index</title>
+      <title>bioindex</title>
       <link>https://kennethworkman.com/code/labware/</link>
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
       
@@ -171,29 +103,11 @@ Very clear writing. Easy to digest the ideas too quickly without really thinking
     
     <item>
       <title>Gene alignment application</title>
-      <link>https://kennethworkman.com/code/alignment/</link>
-      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://kennethworkman.com/code/alignment/</guid>
-      <description>A pedagogical exercise in web development</description>
-    </item>
-    
-    <item>
-      <title>Gene alignment application</title>
       <link>https://kennethworkman.com/projects/alignment/</link>
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://kennethworkman.com/projects/alignment/</guid>
       <description>A pedagogical exercise in web development</description>
-    </item>
-    
-    <item>
-      <title>Enzyme classification using CNNs</title>
-      <link>https://kennethworkman.com/code/enzyme/</link>
-      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://kennethworkman.com/code/enzyme/</guid>
-      <description>Classifying enzyme catalytic activity with neural networks.</description>
     </item>
     
     <item>
@@ -206,12 +120,12 @@ Very clear writing. Easy to digest the ideas too quickly without really thinking
     </item>
     
     <item>
-      <title>Novel strain of E. coli</title>
-      <link>https://kennethworkman.com/code/strain/</link>
+      <title>enzyme ml</title>
+      <link>https://kennethworkman.com/code/enzyme/</link>
       <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://kennethworkman.com/code/strain/</guid>
-      <description>Used canonical synthetic biology techniques to engineer a small library of bacterial strains.</description>
+      <guid>https://kennethworkman.com/code/enzyme/</guid>
+      <description>classifying enzyme catalytic activity</description>
     </item>
     
     <item>
@@ -224,12 +138,12 @@ Very clear writing. Easy to digest the ideas too quickly without really thinking
     </item>
     
     <item>
-      <title>Genomic sequencing pipeline</title>
-      <link>https://kennethworkman.com/code/pipeline/</link>
-      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      <title>strain library</title>
+      <link>https://kennethworkman.com/code/strain/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://kennethworkman.com/code/pipeline/</guid>
-      <description>Automated analytics and screening of sequencing data.</description>
+      <guid>https://kennethworkman.com/code/strain/</guid>
+      <description>used canonical synthetic biology techniques to engineer a small library of bacterial strains</description>
     </item>
     
     <item>
@@ -242,13 +156,23 @@ Very clear writing. Easy to digest the ideas too quickly without really thinking
     </item>
     
     <item>
+      <title>pipeline</title>
+      <link>https://kennethworkman.com/code/pipeline/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://kennethworkman.com/code/pipeline/</guid>
+      <description>automated analytics and screening of sequencing data.</description>
+    </item>
+    
+    <item>
       <title></title>
       <link>https://kennethworkman.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kennethworkman.com/about/</guid>
       <description>I&amp;rsquo;m a software engineer and synthetic biologist with a firm belief in building from first principles . I&amp;rsquo;m trying to develop systems and tools to engineer living systems from scratch.
-I studied Electrical Engineering, Computer Science, and Bioengineering at Berkeley. I dropped out to work on a stealth startup with pre-seed investment from Lucy Guo , the House , and Tyler Cowen . I also do contract machine learning work on synthetic proteins at Serotiny .</description>
+I studied Electrical Engineering, Computer Science, and Bioengineering at Berkeley. I dropped out to work on a stealth startup with pre-seed investment from Lucy Guo , the House , and Tyler Cowen .
+I&amp;rsquo;m currently reading generally about or working on projects relating to:</description>
     </item>
     
     <item>

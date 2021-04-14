@@ -13,48 +13,8 @@
   </url>
   
   <url>
-    <loc>https://kennethworkman.com/reading/</loc>
-    <lastmod>2021-02-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kennethworkman.com/reading/infinity/</loc>
-    <lastmod>2021-02-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://kennethworkman.com/writing/</loc>
     <lastmod>2021-02-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kennethworkman.com/reading/021/</loc>
-    <lastmod>2021-02-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kennethworkman.com/reading/genentech/</loc>
-    <lastmod>2021-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kennethworkman.com/reading/edison/</loc>
-    <lastmod>2021-01-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kennethworkman.com/reading/vanderbilt/</loc>
-    <lastmod>2021-01-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kennethworkman.com/reading/moonwalking/</loc>
-    <lastmod>2021-01-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kennethworkman.com/reading/hailsham/</loc>
-    <lastmod>2021-01-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -118,12 +78,12 @@
   </url>
   
   <url>
-    <loc>https://kennethworkman.com/tags/biology/</loc>
+    <loc>https://kennethworkman.com/code/labware/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://kennethworkman.com/code/labware/</loc>
+    <loc>https://kennethworkman.com/tags/biology/</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -133,18 +93,8 @@
   </url>
   
   <url>
-    <loc>https://kennethworkman.com/code/alignment/</loc>
-    <lastmod>2019-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://kennethworkman.com/projects/alignment/</loc>
     <lastmod>2019-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://kennethworkman.com/code/enzyme/</loc>
-    <lastmod>2019-04-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -153,7 +103,7 @@
   </url>
   
   <url>
-    <loc>https://kennethworkman.com/code/strain/</loc>
+    <loc>https://kennethworkman.com/code/enzyme/</loc>
     <lastmod>2019-04-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -163,12 +113,17 @@
   </url>
   
   <url>
-    <loc>https://kennethworkman.com/code/pipeline/</loc>
-    <lastmod>2019-03-01T00:00:00+00:00</lastmod>
+    <loc>https://kennethworkman.com/code/strain/</loc>
+    <lastmod>2019-04-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://kennethworkman.com/projects/pipeline/</loc>
+    <lastmod>2019-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://kennethworkman.com/code/pipeline/</loc>
     <lastmod>2019-03-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -178,6 +133,10 @@
   
   <url>
     <loc>https://kennethworkman.com/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://kennethworkman.com/reading/</loc>
   </url>
   
   <url>

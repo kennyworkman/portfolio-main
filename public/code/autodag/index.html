@@ -11,7 +11,7 @@
 <meta name="referrer" content="no-referrer">
 
 <title>
-    Autodag - Kenny Workman
+    autoDAG - Kenny Workman
 </title>
 
 
@@ -67,11 +67,11 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Didact+Gothic">
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Autodag"/>
-<meta name="twitter:description" content="CLI visualization of Automatic Differentiation"/>
+<meta name="twitter:title" content="autoDAG"/>
+<meta name="twitter:description" content="CLI visualization of automatic differentiation"/>
 
-<meta property="og:title" content="Autodag" />
-<meta property="og:description" content="CLI visualization of Automatic Differentiation" />
+<meta property="og:title" content="autoDAG" />
+<meta property="og:description" content="CLI visualization of automatic differentiation" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://kennethworkman.com/code/autodag/" />
 <meta property="article:published_time" content="2020-08-15T00:00:00+00:00" />
@@ -86,7 +86,7 @@
     
     <title>
         
-        Autodag
+        autoDAG
         
     </title>
 </head>
@@ -95,7 +95,7 @@
     
     
     <header class="wrap flex-container">
-        <h1>Autodag</h1>
+        <h1>autoDAG</h1>
     </header>
     
     <main class="wrap">
@@ -104,7 +104,7 @@
     <aside role="complementary">
         August 15, 2020
         <br>
-        CLI visualization of Automatic Differentiation
+        CLI visualization of automatic differentiation
         <div class="tag-container">
             
             
@@ -130,10 +130,14 @@
     <article role="article">
         <p><a href="https://github.com/kennyworkman/autodag" target="_blank">Source code.</a>
 </p>
-<p>This is a simple implementation of the computational building blocks driving
-optimization in the most popular artificial neural network libraries today
-(pytorch, tensorflow).</p>
-<p>You can see simple directed graph visualizations of:</p>
+<p>This is a simple implementation and visualization of <a href="https://en.wikipedia.org/wiki/Hessian_automatic_differentiation" target="_blank">automatic
+differentiation</a>
+ - the computational
+workhorse behind  modern deep learning libraries (eg.
+pytorch, tensorflow).</p>
+<p>You can visualize the <a href="https://en.wikipedia.org/wiki/Directed_acyclic_graph" target="_blank">DAG</a>
+
+representing the computational graph of:</p>
 <ul>
 <li>computed function values from the initial forward pass</li>
 <li>computed Jacobian-Vector products (JVPs) that compose the &ldquo;backpropogation&rdquo;

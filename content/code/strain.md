@@ -1,9 +1,9 @@
 ---
-title: "Novel strain of E. coli"
+title: "strain library"
 date: 2019-04-01
 tags: ["biology"]
-summary: "Used canonical synthetic biology techniques to engineer a small library of
-bacterial strains."
+summary: "used canonical synthetic biology techniques to engineer a small library of
+bacterial strains"
 images:
     - /projects/static/xray.png
 ---

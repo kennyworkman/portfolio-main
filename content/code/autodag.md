@@ -1,17 +1,19 @@
 ---
-title: "Autodag"
+title: "autoDAG"
 date: 2020-08-15
 tags: ["software","ml"]
-summary: "CLI visualization of Automatic Differentiation"
+summary: "CLI visualization of automatic differentiation"
 ---
 
 [Source code.](https://github.com/kennyworkman/autodag)
 
-This is a simple implementation of the computational building blocks driving
-optimization in the most popular artificial neural network libraries today
-(pytorch, tensorflow). 
+This is a simple implementation and visualization of [automatic
+differentiation](https://en.wikipedia.org/wiki/Hessian_automatic_differentiation) - the computational 
+workhorse behind  modern deep learning libraries (eg.
+pytorch, tensorflow). 
 
-You can see simple directed graph visualizations of:
+You can visualize the [DAG](https://en.wikipedia.org/wiki/Directed_acyclic_graph)
+representing the computational graph of:
 
   * computed function values from the initial forward pass
   * computed Jacobian-Vector products (JVPs) that compose the "backpropogation"

@@ -1,5 +1,5 @@
 ---
-title: "Bioware index"
+title: "bioindex"
 date: 2019-10-01
 tags: ["software","biology"]
 summary: "Reimplementing git internals to persist bioware."
