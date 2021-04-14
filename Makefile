@@ -18,4 +18,4 @@ build-and-push: build
 
 build-on-server:
 		git pull
-		cp -r public/* /var/www/kennethworkman.com/html/
+		cp -r public/* /var/www/kenbw.com/html/
