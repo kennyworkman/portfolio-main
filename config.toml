@@ -18,17 +18,18 @@ theme = "sam"
   text = "research"
 
 [[params.mainMenu]]
-  link = "/code"
-  text = "code"
+  link = "https://notes.kenbw.com/docs"
+  text = "notes"
 
 [[params.mainMenu]]
   link = "/reading"
   text = "reading"
 
 [[params.mainMenu]]
+  link = "/writing"
+  text = "writing"
+
+[[params.mainMenu]]
   link = "/about"
   text = "about"
 
-[[params.mainMenu]]
-  link = "/writing"
-  text = "writing"

@@ -6,10 +6,21 @@
     <description>Recent content on Kenny Workman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 20 Mar 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://kennethworkman.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>biocompute</title>
+      <link>https://kennethworkman.com/writing/biocompute/</link>
+      <pubDate>Sat, 20 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://kennethworkman.com/writing/biocompute/</guid>
+      <description>The convergence of laboratory automation, high-throughput assays, and machine learning is moving the medium of biological discovery to silicon.
+Bench top experimentation will be the machine code of the biological programmer, simple instructions that are executed by robotics just as bytes are fed through a compiler.
+However, if the goal of creating arbitrary synthetic life is to be realized, we need to upgrade our tooling. We will need robust software that operates at the abstraction level of the organism.</description>
+    </item>
     
     <item>
       <title>bad philosophy</title>
@@ -18,24 +29,6 @@
       
       <guid>https://kennethworkman.com/writing/bad_philosophy/</guid>
       <description>Some ideas are worse than others</description>
-    </item>
-    
-    <item>
-      <title>seneca</title>
-      <link>https://kennethworkman.com/code/seneca/</link>
-      <pubDate>Tue, 05 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://kennethworkman.com/code/seneca/</guid>
-      <description>decentralized literature and note management</description>
-    </item>
-    
-    <item>
-      <title>capsule</title>
-      <link>https://kennethworkman.com/code/capsule/</link>
-      <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://kennethworkman.com/code/capsule/</guid>
-      <description>Using Monte Carlo simulation to improve likelihood evaluation.</description>
     </item>
     
     <item>
@@ -57,15 +50,6 @@
     </item>
     
     <item>
-      <title>autoDAG</title>
-      <link>https://kennethworkman.com/code/autodag/</link>
-      <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://kennethworkman.com/code/autodag/</guid>
-      <description>CLI visualization of automatic differentiation</description>
-    </item>
-    
-    <item>
       <title>autodag</title>
       <link>https://kennethworkman.com/projects/autodag/</link>
       <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
@@ -81,15 +65,6 @@
       
       <guid>https://kennethworkman.com/writing/on_writing/</guid>
       <description>How shitty is this essay?</description>
-    </item>
-    
-    <item>
-      <title>bioindex</title>
-      <link>https://kennethworkman.com/code/labware/</link>
-      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://kennethworkman.com/code/labware/</guid>
-      <description>Reimplementing git internals to persist bioware.</description>
     </item>
     
     <item>
@@ -120,30 +95,12 @@
     </item>
     
     <item>
-      <title>enzyme ml</title>
-      <link>https://kennethworkman.com/code/enzyme/</link>
-      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://kennethworkman.com/code/enzyme/</guid>
-      <description>classifying enzyme catalytic activity</description>
-    </item>
-    
-    <item>
       <title>Novel strain of E. coli</title>
       <link>https://kennethworkman.com/projects/strain/</link>
       <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://kennethworkman.com/projects/strain/</guid>
       <description>Used canonical synthetic biology techniques to engineer a small library of bacterial strains.</description>
-    </item>
-    
-    <item>
-      <title>strain library</title>
-      <link>https://kennethworkman.com/code/strain/</link>
-      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://kennethworkman.com/code/strain/</guid>
-      <description>used canonical synthetic biology techniques to engineer a small library of bacterial strains</description>
     </item>
     
     <item>
@@ -156,23 +113,14 @@
     </item>
     
     <item>
-      <title>pipeline</title>
-      <link>https://kennethworkman.com/code/pipeline/</link>
-      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://kennethworkman.com/code/pipeline/</guid>
-      <description>automated analytics and screening of sequencing data.</description>
-    </item>
-    
-    <item>
       <title></title>
       <link>https://kennethworkman.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kennethworkman.com/about/</guid>
-      <description>I&amp;rsquo;m a software engineer and synthetic biologist with a firm belief in building from first principles . I&amp;rsquo;m trying to develop systems and tools to engineer living systems from scratch.
-I studied Electrical Engineering, Computer Science, and Bioengineering at Berkeley. I dropped out to work on a stealth startup with pre-seed investment from Lucy Guo , the House , and Tyler Cowen .
-I&amp;rsquo;m currently reading generally about or working on projects relating to:</description>
+      <description>I am dedicating my life to making biology easier to engineer.
+I both want to understand how the world works at its core and build huge systems that change how we interact (or think) about living things.
+I studied Electrical Engineering, Computer Science, and Bioengineering at Berkeley. I dropped out to work on a stealth startup with pre-seed investment from Lucy Guo , the House , and Tyler Cowen .</description>
     </item>
     
     <item>

@@ -6,10 +6,21 @@
     <description>Recent content in writing on Kenny Workman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 20 Mar 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://kennethworkman.com/writing/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>biocompute</title>
+      <link>https://kennethworkman.com/writing/biocompute/</link>
+      <pubDate>Sat, 20 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://kennethworkman.com/writing/biocompute/</guid>
+      <description>The convergence of laboratory automation, high-throughput assays, and machine learning is moving the medium of biological discovery to silicon.
+Bench top experimentation will be the machine code of the biological programmer, simple instructions that are executed by robotics just as bytes are fed through a compiler.
+However, if the goal of creating arbitrary synthetic life is to be realized, we need to upgrade our tooling. We will need robust software that operates at the abstraction level of the organism.</description>
+    </item>
     
     <item>
       <title>bad philosophy</title>

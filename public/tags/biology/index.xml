@@ -12,15 +12,6 @@
     
     
     <item>
-      <title>bioindex</title>
-      <link>https://kennethworkman.com/code/labware/</link>
-      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://kennethworkman.com/code/labware/</guid>
-      <description>Reimplementing git internals to persist bioware.</description>
-    </item>
-    
-    <item>
       <title>Bioware index</title>
       <link>https://kennethworkman.com/projects/labware/</link>
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
@@ -48,15 +39,6 @@
     </item>
     
     <item>
-      <title>enzyme ml</title>
-      <link>https://kennethworkman.com/code/enzyme/</link>
-      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://kennethworkman.com/code/enzyme/</guid>
-      <description>classifying enzyme catalytic activity</description>
-    </item>
-    
-    <item>
       <title>Novel strain of E. coli</title>
       <link>https://kennethworkman.com/projects/strain/</link>
       <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
@@ -66,30 +48,12 @@
     </item>
     
     <item>
-      <title>strain library</title>
-      <link>https://kennethworkman.com/code/strain/</link>
-      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://kennethworkman.com/code/strain/</guid>
-      <description>used canonical synthetic biology techniques to engineer a small library of bacterial strains</description>
-    </item>
-    
-    <item>
       <title>Genomic sequencing pipeline</title>
       <link>https://kennethworkman.com/projects/pipeline/</link>
       <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://kennethworkman.com/projects/pipeline/</guid>
       <description>Automated analytics and screening of sequencing data.</description>
-    </item>
-    
-    <item>
-      <title>pipeline</title>
-      <link>https://kennethworkman.com/code/pipeline/</link>
-      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://kennethworkman.com/code/pipeline/</guid>
-      <description>automated analytics and screening of sequencing data.</description>
     </item>
     
   </channel>
