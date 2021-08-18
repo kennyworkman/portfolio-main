@@ -22,10 +22,6 @@ theme = "sam"
   text = "notes"
 
 [[params.mainMenu]]
-  link = "/reading"
-  text = "reading"
-
-[[params.mainMenu]]
   link = "/writing"
   text = "writing"
 

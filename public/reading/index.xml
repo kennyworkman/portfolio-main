@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>reading on Kenny Workman</title>
+    <title>Kenny Workman</title>
     <link>https://kennethworkman.com/reading/</link>
-    <description>Recent content in reading on Kenny Workman</description>
+    <description>Recent content on Kenny Workman</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://kennethworkman.com/reading/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://kennethworkman.com/reading/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

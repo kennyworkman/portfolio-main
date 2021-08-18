@@ -6,11 +6,7 @@
     <description>Recent content in ml on Kenny Workman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Dec 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://kennethworkman.com/tags/ml/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 08 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://kennethworkman.com/tags/ml/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>capsule</title>
       <link>https://kennethworkman.com/projects/capsule/</link>
