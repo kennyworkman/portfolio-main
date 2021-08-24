@@ -22,11 +22,6 @@ enough or diversely technical. [Social cancer](https://facebook.com) and
 However, there has never been a better time in history to try to _actually_ engineer
 biology.
 
-("Bioengineering" as a field or profession is a tragic misnomer and university
-graduates flaunting this title are frankly neither good engineers nor good
-scientists. They are good at memorizing words however, which might be
-important.)
-
 And while dreams of [civilization scale
 progress](https://en.wikipedia.org/wiki/World%27s_Columbian_Exposition) and a
 collective drive for understanding have largely died with my generation,
